@@ -47,6 +47,8 @@ gcc -o 46mcshell 46mcsheel.c   komutu ile derleyebilir
 
 ![execute](https://raw.githubusercontent.com/DEONSKY/operating-systems-group-46/main/Ekran%20Görüntüsü%20(91).png)
 
+![execute](https://raw.githubusercontent.com/DEONSKY/operating-systems-group-46/main/Ekran%20Görüntüsü%20(94).png)
+
 # knowhow
 
 Ödev dökümantasyonun takılacağımız noktları aşabilmemiz için keywordlar verilmişti. Bu belli bir oranda işimizi kolaylaştırdı. Terminalden okuma kısmı uğraştıcıydı. Ama internetten benzer örneklere bakarak bir yol bulmayı başardık. showpid fonksiyonunda dökümantasyon biraz kafa karıştırıcı oldu. En az 5 child process'i yazdırmamız isteniyordu. Ama program ilk açıldığında hiç child process oluşturulmadığı boş kalması gerekiyor. Child process başlatıp dosya yükleme ve onun parametrelerini yükleme kısmı da biraz uğraştırdı

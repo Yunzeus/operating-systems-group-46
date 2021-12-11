@@ -2,8 +2,11 @@
 Linux Shell program in C
 
 Writed by Mert Can Yılmaz g191210018 and group 46
+
 Alihan Sarac g191210057
+
 Yunus Akgul g191210003
+
 Salih Yener g191210036
 
 

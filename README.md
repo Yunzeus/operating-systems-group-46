@@ -55,9 +55,9 @@ gcc -o 46mcshell 46mcsheel.c   komutu ile derleyebilir
 
 https://stackoverflow.com/
 
-https:/www.github.com/
+https://www.github.com/
 
-https:/www.youtube.com/
+https://www.youtube.com/
 
 https://www.geeksforgeeks.org/
 

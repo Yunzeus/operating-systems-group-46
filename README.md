@@ -10,7 +10,7 @@ Yunus Akgul g191210003
 Salih Yener g191210036
 
 
-# Design overview
+# Proje Tasarımı
 
 46mcshell dosyasında bulunan fonksiyonların hangi işlevleri yaptığı ve 46mcshell.c dosyası içinde yorum satırları halide bulunmakta.
 
@@ -25,7 +25,7 @@ exit: Programdan çıkıp exit yazdırıyor.
 Eğer bu komutlardan biri girilmemişse pid_exec fonkisiyonu cağrılıyor, fork ile child process oluşturuluyor. Env değeri ayarlanıyor. Hata varsa handle ediliyor. execvp ile program çalıştırılıp parametreleri yüklenip kapatılıncaya kadar waitpid ile bekleniyor
 
 
-# Running the program
+# Programın Çalıştırılması
 
 Program linux ortamında hazılanmış ve derlenmiştir. İşletim sistemi kurulduktan sonra hazır bulunan paketler ödevde kullanılmıştır. başka işletim sisteminde bu paketler bulunmayacağından ekstaradan sisteme yüklemek gerekebilir.
 
@@ -41,19 +41,17 @@ gcc -o 46mcshell 46mcsheel.c   komutu ile derleyebilir
 
 ./46mcsheell diyerek çalıştırabilirsiniz.
 
-# Running the program in batch mode 
-
-Örnek kullanım
+# Örnek Kullanım
 
 ![execute](https://raw.githubusercontent.com/DEONSKY/operating-systems-group-46/main/Ekran%20Görüntüsü%20(91).png)
 
 ![execute](https://raw.githubusercontent.com/DEONSKY/operating-systems-group-46/main/Ekran%20Görüntüsü%20(94).png)
 
-# knowhow
+# Zorlanılan Noktalar
 
 Ödev dökümantasyonun takılacağımız noktları aşabilmemiz için keywordlar verilmişti. Bu belli bir oranda işimizi kolaylaştırdı. Terminalden okuma kısmı uğraştıcıydı. Ama internetten benzer örneklere bakarak bir yol bulmayı başardık. showpid fonksiyonunda dökümantasyon biraz kafa karıştırıcı oldu. En az 5 child process'i yazdırmamız isteniyordu. Ama program ilk açıldığında hiç child process oluşturulmadığı boş kalması gerekiyor. Child process başlatıp dosya yükleme ve onun parametrelerini yükleme kısmı da biraz uğraştırdı
 
-# references
+# Kullanılan Kaynaklar
 
 https://stackoverflow.com/
 

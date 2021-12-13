@@ -61,4 +61,8 @@ https://www.youtube.com/
 
 https://www.geeksforgeeks.org/
 
+https://www.javatpoint.com/operating-system
 
+https://www.guru99.com/os-memory-management.html
+
+https://geek-university.com/linux/file-structure-in-linux/
